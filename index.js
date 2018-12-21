@@ -4955,7 +4955,7 @@ var Jasmine2Reporter = function () {
                                 }
 
                                 _context8.next = 14;
-                                return browser.takeScreenshot();
+                                return browser.driver.takeScreenshot();
 
                             case 14:
                                 png = _context8.sent;
